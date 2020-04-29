@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RichText Component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="react-contentful-rich-text"
+  >
+    <h1
+      data-type="heading-1"
+    >
+      Heading 1
+    </h1>
+    <h2
+      data-type="heading-2"
+    >
+      Heading 2
+    </h2>
+    <h3
+      data-type="heading-3"
+    >
+      Heading 3
+    </h3>
+    <h4
+      data-type="heading-4"
+    >
+      Heading 4
+    </h4>
+    <h5
+      data-type="heading-5"
+    >
+      Heading 5
+    </h5>
+    <h6
+      data-type="heading-6"
+    >
+      Heading 6
+    </h6>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      />
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        This is the first line of a paragraph.
+This is the second line of a paragraph
+      </span>
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        Some text! Some 
+      </span>
+      <span
+        data-type="text"
+      >
+        <b
+          data-type="bold"
+        >
+          bold, 
+        </b>
+      </span>
+      <span
+        data-type="text"
+      >
+        <i
+          data-type="italic"
+        >
+          italic, 
+        </i>
+      </span>
+      <span
+        data-type="text"
+      >
+        <u
+          data-type="underline"
+        >
+          underline,
+        </u>
+      </span>
+      <span
+        data-type="text"
+      >
+         
+      </span>
+      <span
+        data-type="text"
+      >
+        <u
+          data-type="underline"
+        >
+          <i
+            data-type="italic"
+          >
+            <b
+              data-type="bold"
+            >
+              all
+            </b>
+          </i>
+        </u>
+      </span>
+      <span
+        data-type="text"
+      >
+        .
+      </span>
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        This is a text with a 
+      </span>
+      <span
+        data-type="text"
+      >
+        <code
+          data-type="code"
+        >
+          code
+        </code>
+      </span>
+      <span
+        data-type="text"
+      >
+         in between.
+      </span>
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        <code
+          data-type="multi-code"
+        >
+          /* This is a code block */
+if (1 === 1) {
+    console.log('hello');
+}
+        </code>
+      </span>
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        Here is an unordered list:
+      </span>
+    </div>
+    <ul
+      data-type="unordered-list"
+    >
+      <li
+        data-type="list-item"
+      >
+        <div
+          data-type="paragraph"
+        >
+          <span
+            data-type="text"
+          >
+            Unordered Item 
+          </span>
+          <span
+            data-type="text"
+          >
+            <b
+              data-type="bold"
+            >
+              1
+            </b>
+          </span>
+        </div>
+      </li>
+      <li
+        data-type="list-item"
+      >
+        <div
+          data-type="paragraph"
+        >
+          <span
+            data-type="text"
+          >
+            Unordered Item 
+          </span>
+          <span
+            data-type="text"
+          >
+            <i
+              data-type="italic"
+            >
+              2
+            </i>
+          </span>
+        </div>
+      </li>
+    </ul>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        Here is an ordered list:
+      </span>
+    </div>
+    <ol
+      data-type="ordered-list"
+    >
+      <li
+        data-type="list-item"
+      >
+        <div
+          data-type="paragraph"
+        >
+          <span
+            data-type="text"
+          >
+            Ordered Item 
+          </span>
+          <span
+            data-type="text"
+          >
+            <b
+              data-type="bold"
+            >
+              1
+            </b>
+          </span>
+        </div>
+      </li>
+      <li
+        data-type="list-item"
+      >
+        <div
+          data-type="paragraph"
+        >
+          <span
+            data-type="text"
+          >
+            Ordered Item 
+          </span>
+          <span
+            data-type="text"
+          >
+            <i
+              data-type="italic"
+            >
+              2
+            </i>
+          </span>
+        </div>
+      </li>
+    </ol>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      />
+      <span
+        data-type="text"
+      />
+      <a
+        data-type="asset-hyperlink"
+        href="//images.ctfassets.net/6906u3i655ff/3F54EU14RprSz1HKV5FlBf/7c26d07df87fedcae4aed7547010ef80/Agata-Dest.jpg"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Link to an asset
+      </a>
+      <span
+        data-type="text"
+      />
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      />
+      <a
+        data-type="hyperlink"
+        href="https://github.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Link to an url
+      </a>
+      <span
+        data-type="text"
+      />
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      />
+      <a
+        data-type="email-hyperlink"
+        href="mailto:foo@bar.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Link to an email
+      </a>
+      <span
+        data-type="text"
+      />
+    </div>
+    <blockquote
+      data-type="blockquote"
+    >
+      <div
+        data-type="paragraph"
+      >
+        <span
+          data-type="text"
+        >
+          This is a quote!
+        </span>
+      </div>
+    </blockquote>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        This is a thematic break:
+      </span>
+    </div>
+    <hr
+      data-type="thematic-break"
+    />
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        This is an embedded asset:
+      </span>
+    </div>
+    <img
+      data-type="image"
+      src="https://miro.medium.com/max/796/0*YawwWWRvQDU4ls2w.jpg"
+    />
+    <video
+      controls=""
+      controlslist="nodownload"
+      data-type="video"
+    >
+      <source
+        src="//videos.ctfassets.net/6906u3i655ff/5D2VZtRTdDI6xV7W5u2EVr/2eba1cded6667316683bd5ead1d6293d/92841488_519614202327560_8099036571849719808_n.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        This is an embedded entry:
+      </span>
+    </div>
+    <div>
+      Editorial Test
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      >
+        These are inline entries:
+      </span>
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      />
+      <div>
+        Editorial Test
+      </div>
+      <span
+        data-type="text"
+      />
+      <div>
+        Editorial Test
+      </div>
+      <span
+        data-type="text"
+      />
+    </div>
+    <div
+      data-type="paragraph"
+    >
+      <span
+        data-type="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
